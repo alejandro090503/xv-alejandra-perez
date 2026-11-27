@@ -1,0 +1,7 @@
+.vercel
+.DS_Store
+Thumbs.db
+_src/shot-*.png
+_src/index.orig.html
+_src/orig/
+_src/collage*.png

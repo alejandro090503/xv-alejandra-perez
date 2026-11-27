@@ -1,0 +1,68 @@
+{
+ "recepcion": {
+  "lat": 26.233069,
+  "lng": -98.348655,
+  "nombre": "Arelis Celebration Hall"
+ },
+ "ceremonia": {
+  "lat": 26.16539,
+  "lng": -98.04272,
+  "nombre": "St. Joseph Catholic Church"
+ },
+ "hoteles": [
+  {
+   "nombre": "Hampton Inn & Suites Mission",
+   "tipo": "Hotel (Hampton by Hilton)",
+   "direccion": "2505 Victoria Dr, Mission, TX 78572",
+   "lat": 26.1986863,
+   "lng": -98.2829888,
+   "fotos": [
+    "hotel-a1.jpg",
+    "hotel-a2.jpg",
+    "hotel-a3.jpg"
+   ],
+   "reservar": "https://www.hilton.com/en/hotels/mfemshx-hampton-suites-mission/",
+   "ubicacion": "https://www.google.com/maps/place/Hampton+Inn+%26+Suites+Mission,+2505+Victoria+Dr,+Mission,+TX+78572/@26.1986863,-98.2829888,17z",
+   "mi": 6.3,
+   "min": 10,
+   "mi_ceremonia": 17.9,
+   "min_ceremonia": 24
+  },
+  {
+   "nombre": "Embassy Suites by Hilton McAllen Convention Center",
+   "tipo": "Hotel de suites (Embassy Suites by Hilton)",
+   "direccion": "800 Convention Center Blvd, McAllen, TX 78501",
+   "lat": 26.1986069,
+   "lng": -98.2608777,
+   "fotos": [
+    "hotel-b1.jpg",
+    "hotel-b2.jpg",
+    "hotel-b3.jpg"
+   ],
+   "reservar": "https://www.hilton.com/en/hotels/mfecoes-embassy-suites-mcallen-convention-center/",
+   "ubicacion": "https://www.google.com/maps/place/Embassy+Suites+by+Hilton+McAllen+Convention+Center,+800+Convention+Center+Blvd,+McAllen,+TX+78501/@26.1986069,-98.2608777,17z",
+   "mi": 7.6,
+   "min": 12,
+   "mi_ceremonia": 16.4,
+   "min_ceremonia": 22
+  },
+  {
+   "nombre": "SpringHill Suites by Marriott McAllen Convention Center",
+   "tipo": "Hotel de suites (Marriott)",
+   "direccion": "1800 S Ware Rd, McAllen, TX 78503",
+   "lat": 26.1928545,
+   "lng": -98.2645749,
+   "fotos": [
+    "hotel-c1.jpg",
+    "hotel-c2.jpg",
+    "hotel-c3.jpg"
+   ],
+   "reservar": "https://www.marriott.com/en-us/hotels/mfema-springhill-suites-mcallen-convention-center/overview/",
+   "ubicacion": "https://www.google.com/maps/place/SpringHill+Suites+by+Marriott+McAllen+Convention+Center,+1800+S+Ware+Rd,+McAllen,+TX+78503/@26.1928545,-98.2645749,17z",
+   "mi": 7.2,
+   "min": 11,
+   "mi_ceremonia": 15.9,
+   "min_ceremonia": 21
+  }
+ ]
+}
