@@ -5,3 +5,6 @@ _src/shot-*.png
 _src/index.orig.html
 _src/orig/
 _src/collage*.png
+
+.vercel
+.env*
