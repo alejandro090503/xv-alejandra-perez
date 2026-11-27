@@ -766,8 +766,8 @@ body:not(.al-open) .vinyl-btn{opacity:0;pointer-events:none}
 .lp-osc .fam2-group{background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(255,251,249,.98))!important}
 .lp-osc .rsvp-card{background:rgba(255,253,251,.97)!important}
 .lp-osc .fam2-divider::before,.lp-osc .fam2-divider::after{background:linear-gradient(90deg,transparent,rgba(243,220,200,.45),transparent)!important}
-/* cortina de seda (17) antes del RSVP: aire arriba para que no tape el título y abajo de la sección anterior */
-#srsvp{padding-top:124px}
+/* RSVP: aire arriba para el velo de la unión */
+#srsvp{padding-top:96px}
 #snokids{padding-bottom:96px!important}
 
 /* ── Títulos .sec-title: foil / enciende / vertical (el JS reparte sin repetir dos seguidos) ── */
@@ -2288,8 +2288,8 @@ window.LP_CONFIG = {
     if (!sec.querySelector(':scope > canvas.lp-seda')) sec.insertBefore(mk('canvas', 'lp-seda'), sec.firstChild);
   });
 
-  /* uniones: velo (15) al salir de la seda hacia Ubicaciones y Regalos; cortina (17) justo antes del RSVP */
-  [['subic', 'velo'], ['sgifts', 'velo'], ['srsvp', 'seda']].forEach(function(u){
+  /* uniones: solo velo difuminado (15); sin cortina de seda (corrección 27-nov) */
+  [['subic', 'velo'], ['sgifts', 'velo'], ['srsvp', 'velo']].forEach(function(u){
     var sec = D.getElementById(u[0]);
     if (sec && !sec.hasAttribute('data-lp-union')) sec.setAttribute('data-lp-union', u[1]);
   });
