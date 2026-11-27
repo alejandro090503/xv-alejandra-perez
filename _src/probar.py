@@ -6,7 +6,7 @@ with sync_playwright() as pw:
     b=pw.chromium.launch(); c=b.new_context(viewport={'width':375,'height':740}); c.add_init_script(SIL)
     p=c.new_page(); errs=[]
     p.on('pageerror',lambda e:errs.append(str(e))); p.on('console',lambda m:m.type=='error' and errs.append(m.text))
-    p.goto('http://localhost:5731/?noauto'); p.evaluate(SIL); p.wait_for_timeout(1500)
+    p.goto(''+(__import__('os').environ.get('URL','http://localhost:5731'))+'/?noauto'); p.evaluate(SIL); p.wait_for_timeout(1500)
     p.mouse.click(187,370); p.wait_for_timeout(10000); p.evaluate(SIL)
     r=p.evaluate("()=>({sw:document.documentElement.scrollWidth,iw:innerWidth,h:document.documentElement.scrollHeight,open:document.body.classList.contains('al-open'),words:document.querySelectorAll('#crText .w').length})")
     print(json.dumps(r))
